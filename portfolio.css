@@ -83,14 +83,17 @@
 }
 
 .contact-box {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.214);
   border-radius: 0.75rem;
-  padding: 3rem;
+  padding: 2rem 4rem;
 
+  
   a {
     color: #757575;
     font-size: 14px;
     size: 14px;
+    display: block;
+    unicode-bidi: isolate;
   }
   p {
     color: #757575;
