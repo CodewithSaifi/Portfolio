@@ -74,20 +74,24 @@
 #contact {
   display: grid;
   gap: 1.5rem;
-  margin: auto;
-  max-width: 968px;
+  /* margin: ; */
+  text-align: center;
 }
 
-#contact {
-  text-align: center;
+.skills {
+  border: 1px solid rgba(0, 0, 0, 0.214);
+  border-radius: 0.75rem;
+  padding: 2rem 4rem;
+  gap: 1.5rem;
+  box-sizing: border-box ;
+
 }
 
 .contact-box {
   border: 1px solid rgba(0, 0, 0, 0.214);
   border-radius: 0.75rem;
   padding: 2rem 4rem;
-
-  
+  box-sizing: border-box;
   a {
     color: #757575;
     font-size: 14px;
