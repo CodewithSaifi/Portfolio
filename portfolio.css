@@ -4,14 +4,13 @@
   font-family: "Nunito";
   box-sizing: border-box;
   text-align: center;
-  box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-#portfolio {
+/* #portfolio {
     width: 100vw;
-  }
+  } */
 
   .pic-center {
     margin: 0;
@@ -66,7 +65,7 @@
  transition: color 0.5s ease-in-out;
 }
 
-.home-button:hover {
+.nav-button-hover:hover {
  color: #9FBC49;
  transition: color 0.3s ease-in-out;
 }
@@ -81,7 +80,7 @@
 .skills {
   border: 1px solid rgba(0, 0, 0, 0.214);
   border-radius: 0.75rem;
-  padding: 2rem 4rem;
+  /* padding: 2rem 4rem; */
   gap: 1.5rem;
   box-sizing: border-box ;
 
@@ -90,20 +89,18 @@
 .contact-box {
   border: 1px solid rgba(0, 0, 0, 0.214);
   border-radius: 0.75rem;
-  padding: 2rem 4rem;
+  padding: 15px;
   box-sizing: border-box;
-  a {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+ .email-me {
     color: #757575;
     font-size: 14px;
     size: 14px;
     display: block;
-    unicode-bidi: isolate;
   }
-  p {
-    color: #757575;
-  }
-}
-
 
       body {
         margin: 0;
@@ -119,20 +116,19 @@
       }
 
       .portfolio {
-        text-align: center;
         font-size: 32px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
       }
 
-      .home ul {
+      /* .nav ul {
         display: flex;
         justify-content: center;
         list-style-type: none;
         padding: 0;
         gap: 20px;
-      }
+      } */
 
-      .home a {
+      .nav a {
         text-decoration: none;
         color: #333333;
         font-weight: bold;
@@ -141,4 +137,57 @@
       section {
         text-align: center;
         padding: 20px;
+      }
+
+      .project-items {
+        list-style: none;
+        padding: 6px;
+      }
+
+      .skills-items {
+        list-style: none;
+      }
+
+      .skills {
+        margin-left: 20%;
+        margin-right: 20%;
+      }
+
+      .project {
+        border: 1px solid rgba(0, 0, 0, 0.214);
+        border-radius: 0.75rem;
+        padding: 15px;
+        margin-left: 20%;
+        margin-right: 20%;
+
+      }
+      
+      .project ul {
+        padding-top: 8px;
+      }
+
+      .project-items-link {
+        text-decoration: none;
+      }
+
+      .nav1 {
+        display: flex;
+      }
+
+      .logo-text {
+        margin: 0;
+        padding: 1%;
+        padding-left: 18%;
+        padding-right: 35%;
+      }
+
+      .nav-button {
+        list-style: none;
+        padding: 1.5%;
+        padding-right: 1.5%;
+      }
+
+      .nav-button a {
+        text-decoration: none;
+        color: #333333;
       }
