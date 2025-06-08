@@ -9,13 +9,29 @@
   <body>
     <div>
       <header id="portfolio">
-        <h1 class="portfolio">Portfolio</h1>
-        <nav class="home">
-          <ul>
-            <li><a class="home-button" href="https://codewithsaifi.github.io/Portfolio">Home</a></li>
+        <nav class="nav">
+          <!-- <h1 class="portfolio logo-text">Portfolio</h1> -->
+          <ul class="nav1">
+            <h1 class="portfolio logo-text">Portfolio</h1>
+            <li class="nav-button"><a class="nav-button-hover" href="https://codewithsaifi.github.io/portfolio">Home</a></li>
+            <li class="nav-button"><a class="nav-button-hover" href="#skills">Skills</a></li>
+            <li class="nav-button"><a class="nav-button-hover" href="#projects">Projects</a></li>
+            <li class="nav-button"><a class="nav-button-hover" href="#contact">Contact</a></li>
+
+
+
+
+
+            <!-- <li>
+              <a
+                class="home-button"
+                href="https://codewithsaifi.github.io/Portfolio"
+                >Home</a
+              >
+            </li>
             <li><a class="home-button" href="#skills">Skills</a></li>
             <li><a class="home-button" href="#projects">Projects</a></li>
-            <li><a class="home-button" href="#contact">Contact</a></li>
+            <li><a class="home-button" href="#contact">Contact</a></li> -->
           </ul>
         </nav>
       </header>
@@ -38,34 +54,53 @@
         <a href="" target="blank_target" class="resume-button">Resume</a>
       </section>
       <main>
-        <section id="skills">
-          <h2>Skills</h2>
+        <div>
+          <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li class="skills-items">HTML/CSS</li>
+              <p>Basic</p>
+            </ul>
+          </section>
+        </div>
 
-          <ul>
-            <li>HTML/CSS</li>
-            <p>Basic</p>
-          </ul>
-        </section>
-
-        <section id="projects">
-          <h2>Projects</h2>
-          <p>Recents Projects</p>
-          <ul>
-            <li><a href="travel blog.html">Project 1</a></li>
-            <li><a href="https://example.com/project2">Project 2</a></li>
-            <li><a href="https://example.com/project3">Project 3</a></li>
-          </ul>
+        <section>
+          <div class="project">
+            <h2>Projects</h2>
+            <p>Recents Projects</p>
+            <ul>
+              <li class="project-items">
+                <a target="_blank"
+                  class="project-items-link"
+                  href="https://codewithsaifi.github.io/Dev-challenge/blog-card.html"
+                  >Blog Card</a>
+                </li>
+              <li class="project-items">
+                <a target="_blank"
+                  class="project-items-link"
+                  href="https://codewithsaifi.github.io/Dev-challenge/contact-page"
+                  >Contact Page</a>
+              </li>
+              <li class="project-items">
+                <a target="_blank"
+                  class="project-items-link"
+                  href="https://example.com/project3"
+                  >Project 3</a>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section id="contact">
           <h2>Contact Me</h2>
           <p>Talk to me</p>
-          <div class="contact-box">
+          <div id="box-size" class="contact-box">
             <img src="Assets/Email-logo.png" alt="Email Logo" />
             <h3>Email</h3>
             <span>Mafiagamer996@gmail.com</span>
-            <a  class="" href="mailto:Mafiagamer996@gmail.com"
-              >Write me</a>
+            <a class="email-me" href="mailto:Mafiagamer996@gmail.com"
+              >Write me</a
+            >
           </div>
         </section>
 
